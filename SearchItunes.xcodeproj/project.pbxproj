@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90E7E022476623D00E44062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E7E012476623D00E44062 /* AppDelegate.swift */; };
+		A90E7E042476623D00E44062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E7E032476623D00E44062 /* SceneDelegate.swift */; };
+		A90E7E062476623D00E44062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E7E052476623D00E44062 /* ViewController.swift */; };
+		A90E7E092476623D00E44062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90E7E072476623D00E44062 /* Main.storyboard */; };
+		A90E7E0B2476623E00E44062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90E7E0A2476623E00E44062 /* Assets.xcassets */; };
+		A90E7E0E2476623E00E44062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90E7E0C2476623E00E44062 /* LaunchScreen.storyboard */; };
+		A90E7E16247662F300E44062 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E7E15247662F300E44062 /* Modal.swift */; };
+		A90E7E1B2476633F00E44062 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E7E192476633F00E44062 /* SearchViewController.swift */; };
+		A90E7E1C2476633F00E44062 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90E7E1A2476633F00E44062 /* SearchViewController.xib */; };
+		A90E7E1F2476636100E44062 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E7E1D2476636100E44062 /* DetailViewController.swift */; };
+		A90E7E202476636100E44062 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90E7E1E2476636100E44062 /* DetailViewController.xib */; };
+		A90E7E232476637A00E44062 /* WatchVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90E7E212476637A00E44062 /* WatchVideoViewController.swift */; };
+		A90E7E242476637A00E44062 /* WatchVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90E7E222476637A00E44062 /* WatchVideoViewController.xib */; };
+		A9C49C2124766DA500D5E413 /* GetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C49C2024766DA500D5E413 /* GetAPI.swift */; };
+		A9C49C2524767AA600D5E413 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C49C2324767AA600D5E413 /* CollectionViewCell.swift */; };
+		A9C49C2624767AA600D5E413 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C49C2424767AA600D5E413 /* CollectionViewCell.xib */; };
+		FD644C59C97A68F4786CACBF /* Pods_SearchItunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2087748A2E0FDD637AB834D4 /* Pods_SearchItunes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2087748A2E0FDD637AB834D4 /* Pods_SearchItunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchItunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD7DEB868CF5AB02E89D479 /* Pods-SearchItunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchItunes.debug.xcconfig"; path = "Target Support Files/Pods-SearchItunes/Pods-SearchItunes.debug.xcconfig"; sourceTree = "<group>"; };
+		A90E7DFE2476623D00E44062 /* SearchItunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchItunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90E7E012476623D00E44062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90E7E032476623D00E44062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A90E7E052476623D00E44062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A90E7E082476623D00E44062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A90E7E0A2476623E00E44062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90E7E0D2476623E00E44062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90E7E0F2476623E00E44062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90E7E15247662F300E44062 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		A90E7E192476633F00E44062 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A90E7E1A2476633F00E44062 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		A90E7E1D2476636100E44062 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A90E7E1E2476636100E44062 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A90E7E212476637A00E44062 /* WatchVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchVideoViewController.swift; sourceTree = "<group>"; };
+		A90E7E222476637A00E44062 /* WatchVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WatchVideoViewController.xib; sourceTree = "<group>"; };
+		A9C49C2024766DA500D5E413 /* GetAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAPI.swift; sourceTree = "<group>"; };
+		A9C49C2324767AA600D5E413 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A9C49C2424767AA600D5E413 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		F751460D22247B1885AAADCC /* Pods-SearchItunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchItunes.release.xcconfig"; path = "Target Support Files/Pods-SearchItunes/Pods-SearchItunes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90E7DFB2476623D00E44062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD644C59C97A68F4786CACBF /* Pods_SearchItunes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D631E41601C1E7E634554D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DEB868CF5AB02E89D479 /* Pods-SearchItunes.debug.xcconfig */,
+				F751460D22247B1885AAADCC /* Pods-SearchItunes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A90E7DF52476623D00E44062 = {
+			isa = PBXGroup;
+			children = (
+				A90E7E002476623D00E44062 /* SearchItunes */,
+				A90E7DFF2476623D00E44062 /* Products */,
+				43D631E41601C1E7E634554D /* Pods */,
+				B85305EEFAABB1BC3EC57D98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A90E7DFF2476623D00E44062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90E7DFE2476623D00E44062 /* SearchItunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90E7E002476623D00E44062 /* SearchItunes */ = {
+			isa = PBXGroup;
+			children = (
+				A9C49C1F24766D9700D5E413 /* ManagerAPI */,
+				A90E7E182476631A00E44062 /* Modals */,
+				A90E7E17247662F700E44062 /* Controllers */,
+				A90E7E012476623D00E44062 /* AppDelegate.swift */,
+				A90E7E032476623D00E44062 /* SceneDelegate.swift */,
+				A90E7E052476623D00E44062 /* ViewController.swift */,
+				A90E7E072476623D00E44062 /* Main.storyboard */,
+				A90E7E0A2476623E00E44062 /* Assets.xcassets */,
+				A90E7E0C2476623E00E44062 /* LaunchScreen.storyboard */,
+				A90E7E0F2476623E00E44062 /* Info.plist */,
+			);
+			path = SearchItunes;
+			sourceTree = "<group>";
+		};
+		A90E7E17247662F700E44062 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9C49C2224767A9000D5E413 /* Cells */,
+				A90E7E192476633F00E44062 /* SearchViewController.swift */,
+				A90E7E1A2476633F00E44062 /* SearchViewController.xib */,
+				A90E7E1D2476636100E44062 /* DetailViewController.swift */,
+				A90E7E1E2476636100E44062 /* DetailViewController.xib */,
+				A90E7E212476637A00E44062 /* WatchVideoViewController.swift */,
+				A90E7E222476637A00E44062 /* WatchVideoViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A90E7E182476631A00E44062 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				A90E7E15247662F300E44062 /* Modal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		A9C49C1F24766D9700D5E413 /* ManagerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A9C49C2024766DA500D5E413 /* GetAPI.swift */,
+			);
+			path = ManagerAPI;
+			sourceTree = "<group>";
+		};
+		A9C49C2224767A9000D5E413 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9C49C2324767AA600D5E413 /* CollectionViewCell.swift */,
+				A9C49C2424767AA600D5E413 /* CollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B85305EEFAABB1BC3EC57D98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2087748A2E0FDD637AB834D4 /* Pods_SearchItunes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A90E7DFD2476623D00E44062 /* SearchItunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90E7E122476623E00E44062 /* Build configuration list for PBXNativeTarget "SearchItunes" */;
+			buildPhases = (
+				C4C5437DD6AE99864DA0F933 /* [CP] Check Pods Manifest.lock */,
+				A90E7DFA2476623D00E44062 /* Sources */,
+				A90E7DFB2476623D00E44062 /* Frameworks */,
+				A90E7DFC2476623D00E44062 /* Resources */,
+				692BB54974ED3F80379704A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchItunes;
+			productName = SearchItunes;
+			productReference = A90E7DFE2476623D00E44062 /* SearchItunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90E7DF62476623D00E44062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = taoquynh;
+				TargetAttributes = {
+					A90E7DFD2476623D00E44062 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A90E7DF92476623D00E44062 /* Build configuration list for PBXProject "SearchItunes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90E7DF52476623D00E44062;
+			productRefGroup = A90E7DFF2476623D00E44062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90E7DFD2476623D00E44062 /* SearchItunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90E7DFC2476623D00E44062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90E7E242476637A00E44062 /* WatchVideoViewController.xib in Resources */,
+				A9C49C2624767AA600D5E413 /* CollectionViewCell.xib in Resources */,
+				A90E7E0E2476623E00E44062 /* LaunchScreen.storyboard in Resources */,
+				A90E7E0B2476623E00E44062 /* Assets.xcassets in Resources */,
+				A90E7E202476636100E44062 /* DetailViewController.xib in Resources */,
+				A90E7E1C2476633F00E44062 /* SearchViewController.xib in Resources */,
+				A90E7E092476623D00E44062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		692BB54974ED3F80379704A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchItunes/Pods-SearchItunes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchItunes/Pods-SearchItunes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchItunes/Pods-SearchItunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C5437DD6AE99864DA0F933 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchItunes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90E7DFA2476623D00E44062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90E7E1B2476633F00E44062 /* SearchViewController.swift in Sources */,
+				A9C49C2124766DA500D5E413 /* GetAPI.swift in Sources */,
+				A9C49C2524767AA600D5E413 /* CollectionViewCell.swift in Sources */,
+				A90E7E062476623D00E44062 /* ViewController.swift in Sources */,
+				A90E7E022476623D00E44062 /* AppDelegate.swift in Sources */,
+				A90E7E1F2476636100E44062 /* DetailViewController.swift in Sources */,
+				A90E7E232476637A00E44062 /* WatchVideoViewController.swift in Sources */,
+				A90E7E042476623D00E44062 /* SceneDelegate.swift in Sources */,
+				A90E7E16247662F300E44062 /* Modal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A90E7E072476623D00E44062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90E7E082476623D00E44062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A90E7E0C2476623E00E44062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90E7E0D2476623E00E44062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90E7E102476623E00E44062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90E7E112476623E00E44062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90E7E132476623E00E44062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD7DEB868CF5AB02E89D479 /* Pods-SearchItunes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SearchItunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taoquynh.SearchItunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90E7E142476623E00E44062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F751460D22247B1885AAADCC /* Pods-SearchItunes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SearchItunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taoquynh.SearchItunes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90E7DF92476623D00E44062 /* Build configuration list for PBXProject "SearchItunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90E7E102476623E00E44062 /* Debug */,
+				A90E7E112476623E00E44062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90E7E122476623E00E44062 /* Build configuration list for PBXNativeTarget "SearchItunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90E7E132476623E00E44062 /* Debug */,
+				A90E7E142476623E00E44062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90E7DF62476623D00E44062 /* Project object */;
+}
